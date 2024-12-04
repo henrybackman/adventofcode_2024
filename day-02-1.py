@@ -14,7 +14,7 @@ def is_level_safe(level):
 
 def main():
     data = []
-    with open('data/02') as f:
+    with open('data/02.data') as f:
         for row in f:
             levels = row.split()
             data.append([int(x) for x in levels])

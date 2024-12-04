@@ -22,7 +22,7 @@ class wordChecker():
 def main():
     data = ""
     enabled = True
-    with open('data/03') as f:
+    with open('data/03.data') as f:
         data = f.read()
     checkers = {
         'mul': wordChecker('mul('),

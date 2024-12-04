@@ -3,7 +3,7 @@ from regex import findall
 
 def main():
     data = ""
-    with open('data/03') as f:
+    with open('data/03.data') as f:
         data = f.read()
 
     matches = findall(r'(mul\()(\d{1,3},\d{1,3})\)', data)
