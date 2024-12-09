@@ -15,7 +15,7 @@ def get_operator_lists(n):
 
 def main():
     eqs = []
-    with open('data/07.data') as f:
+    with open('data/08.data') as f:
         for row in enumerate(f):
             res, inputs = row[1].strip().split(': ')
             res = int(res)
